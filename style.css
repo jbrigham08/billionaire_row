@@ -1,0 +1,32 @@
+* {box-sizing: border-box;}
+
+#logo{
+    width: 100px;
+}
+
+li{
+    display: inline;
+    border: 2px solid green;
+}
+ul{
+    border: 2px solid red;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border: 1px solid blue;
+    width: 10%;
+    float: left;
+}
+
+nav{
+    border: 1px solid red;
+    width: 50%;
+    float: left;
+    vertical-align: middle; 
+}
+
+header{
+   
+}
