@@ -1,32 +1,44 @@
 * {box-sizing: border-box;}
 
-#logo{
-    width: 100px;
+
+
+/****** HEADER ******/
+
+header{
+    border: 1px solid red;
+    display: flex;
+    align-items: center
+
 }
 
-li{
-    display: inline;
-    border: 2px solid green;
+header div img {
+    height: 200px;
 }
+
+
+div {
+    border: 1px solid blue;
+}
+
+
+nav{
+    border: 2px solid green;
+    width: 50%;
+}
+
+
+/* LIST ITEMS */
 ul{
-    border: 2px solid red;
     margin: 0;
     padding: 0;
 }
 
-div{
-    border: 1px solid blue;
-    width: 10%;
-    float: left;
+li{
+    display: inline;
 }
 
-nav{
-    border: 1px solid red;
-    width: 50%;
-    float: left;
-    vertical-align: middle; 
-}
 
-header{
-   
-}
+/****** MAIN ******/
+
+
+
